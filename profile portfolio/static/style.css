@@ -1,0 +1,12 @@
+/* .body {
+    background-image: url("crater_lake.jpg");
+} */
+
+#background {
+    display: flex;
+}
+
+#profile {
+    height: 10rem;
+    border-radius: 50%;
+}
