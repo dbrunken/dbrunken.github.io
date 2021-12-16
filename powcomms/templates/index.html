@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta
+      content="To serve and offer our customers the greatest results by utilizing our vast network of Investigators, proprietary investigative tactics, and the relentless determination to gather information, all while keeping the highest level’s professionalism, communication and excellence."
+      name="description"
+    />
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta
+      name="csrf-token"
+      content="WBwaDjB4zJukEuY38d-9ChAO-M9qMJu2mT5UNHiOK_xBFnXHNvTA_FE2mn1eu898UtfKCBvh8nnOr9waCuA6WA"
+    />
+
+    <title>Powilison Communcations - Private Investigation</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/assets/favicon-b513a44bbbc200ac0008f9744a11d164252101bd28f661c198edceb55c25b14a.ico"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/packs/css/application-f11e121d.css"
+      data-turbolinks-track="reload"
+    />
+    <script
+      src="/packs/js/application-f937983dbd6ef1db1d50.js"
+      data-turbolinks-track="reload"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"
+          ><img
+            class="d-inline-block align-text-center"
+            src="/assets/logo/iconLogo-4cb1c74690531c0eafacf1bc3614abcf6c90ced643e9db15791f949fe99bc9e5.png"
+          />
+          <span id="disappearName">Powlison Communications</span> </a
+        ><button
+          name="button"
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#naviCollapse"
+          aria-controls="naviCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-angle-down"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="naviCollapse">
+          <ul class="nav navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#firm"
+                ><i class="fas fa-stream"></i>Firm&#39;s Resources</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#services"
+                ><i class="fas fa-clipboard-list"></i> Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#locations"
+                ><i class="fas fa-map-marked-alt"></i> Locations</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav nav">
+            <li>
+              <a
+                class="mt-2 me-2 fa-lg"
+                target="_blank"
+                href="https://www.facebook.com/PowCommsInc"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                class="mt-2 fa-lg"
+                target="_blank"
+                href="https://www.instagram.com/powlisoncommunications/?hl=en"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <button
+                name="button"
+                type="submit"
+                class="btn btn-lg bt-outline-success d-line-block"
+                data-bs-toggle="modal"
+                data-bs-target="#contactUs"
+              >
+                <i class="fas fa-envelope"></i> Contact Us
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      aria-hidden="true"
+      aria-labelledby="contactUsModalLabel"
+      class="modal fade text-body"
+      id="contactUs"
+      tabindex="-1"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="contactUsModalLabel">
+              Powilson Communications
+            </h4>
+            <button
+              name="button"
+              type="submit"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-hidden="Close"
+            ></button>
+          </div>
+          <form action="/sending" accept-charset="UTF-8" method="post">
+            <input
+              type="hidden"
+              name="authenticity_token"
+              value="Qp7z-ubBIoCpPZlnNaTCGtkjoIng8l7haesLmuMKB5JWeGv6hoqHQ-uj-oiWjT5SF_XixywZtVlE8cIHDo6bpQ"
+            />
+            <div class="modal-body">
+              <h1 class="text-center">We are here to help</h1>
+              <div class="mb-3 input-group">
+                <label class="input-group-text" for="contact_name">Name</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  name="contact[name]"
+                  id="contact_name"
+                />
+              </div>
+              <div class="mb-3 input-group">
+                <label class="input-group-text" for="contact_email"
+                  >Email</label
+                >
+                <input
+                  class="form-control"
+                  type="text"
+                  name="contact[email]"
+                  id="contact_email"
+                />
+              </div>
+              <div class="mb-3 input-group">
+                <label class="input-group-text" for="contact_phone"
+                  >Phone</label
+                >
+                <input
+                  class="form-control"
+                  type="text"
+                  name="contact[phone]"
+                  id="contact_phone"
+                />
+              </div>
+              <div class="mb-3 form-check form-switch">
+                <input name="contact[attorney]" type="hidden" value="0" /><input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="1"
+                  name="contact[attorney]"
+                  id="contact_attorney"
+                />
+                <label class="form-check-label" for="contact_attorney"
+                  >Attorney</label
+                >
+              </div>
+              <div class="mb-3">
+                <h4>Question about a Service?</h4>
+                <hr />
+                <div class="form-check">
+                  <input
+                    name="contact[services][Criminal, Civil, Family and Juvenile Defense Investigations]"
+                    type="hidden"
+                    value="0"
+                  /><input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="1"
+                    name="contact[services][Criminal, Civil, Family and Juvenile Defense Investigations]"
+                    id="contact_services_Criminal, Civil, Family and Juvenile Defense Investigations"
+                  />
+                  <label for='contact_services_{:class=&gt;"form-check-label"}'
+                    >Criminal, Civil, Family and Juvenile Defense Investigations
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    name="contact[services][Serving Services]"
+                    type="hidden"
+                    value="0"
+                  /><input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="1"
+                    name="contact[services][Serving Services]"
+                    id="contact_services_Serving Services"
+                  />
+                  <label for='contact_services_{:class=&gt;"form-check-label"}'
+                    >Serving Services
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    name="contact[services][Surveillance]"
+                    type="hidden"
+                    value="0"
+                  /><input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="1"
+                    name="contact[services][Surveillance]"
+                    id="contact_services_Surveillance"
+                  />
+                  <label for='contact_services_{:class=&gt;"form-check-label"}'
+                    >Surveillance
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    name="contact[services][Infidelity]"
+                    type="hidden"
+                    value="0"
+                  /><input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="1"
+                    name="contact[services][Infidelity]"
+                    id="contact_services_Infidelity"
+                  />
+                  <label for='contact_services_{:class=&gt;"form-check-label"}'
+                    >Infidelity
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    name="contact[services][Lost Persons]"
+                    type="hidden"
+                    value="0"
+                  /><input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="1"
+                    name="contact[services][Lost Persons]"
+                    id="contact_services_Lost Persons"
+                  />
+                  <label for='contact_services_{:class=&gt;"form-check-label"}'
+                    >Lost Persons
+                  </label>
+                </div>
+                <input
+                  name="contact[services][other]"
+                  type="hidden"
+                  value="0"
+                /><input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="1"
+                  name="contact[services][other]"
+                  id="contact_services_other"
+                />
+                <label class="form-check-label" for="contact_services_Other"
+                  >Other</label
+                >
+              </div>
+              <div class="mb-3">
+                <div class="subtitle_1639512904">
+                  <style media="screen">
+                    .subtitle_1639512904 {
+                      position: absolute !important;
+                      top: -9999px;
+                      left: -9999px;
+                    }</style
+                  ><label for="contact_subtitle"
+                    >If you are a human, ignore this field</label
+                  ><input
+                    type="text"
+                    name="contact[subtitle]"
+                    id="contact_subtitle"
+                    autocomplete="off"
+                    tabindex="-1"
+                  /><input
+                    type="hidden"
+                    name="spinner"
+                    id="spinner"
+                    value="248b444f0514d75fc7eb9377dcb389ec"
+                  />
+                </div>
+                <label class="form-label" for="contact_message">Message</label>
+                <textarea
+                  class="form-control"
+                  name="contact[message]"
+                  id="contact_message"
+                ></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div class="form-group md-2">
+                <button
+                  name="button"
+                  type="submit"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                  Cancel
+                </button>
+                <input
+                  type="submit"
+                  name="commit"
+                  value="Send Message"
+                  class="btn btn-success"
+                  data-disable-with="Send Message"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <img
+        class="img-fluid mx-auto d-block"
+        src="/assets/logo/CenterLogo-8fdb3d9d64c135d3a5da03435cd155cd5b18d81c4c7f22232bcfb94dab68d082.png"
+      />
+      <h2 class="text-center">
+        To serve and offer our customers the greatest results by utilizing our
+        vast network of Investigators, proprietary investigative tactics, and
+        the relentless determination to gather information, all while keeping
+        the highest level’s professionalism, communication and excellence.
+      </h2>
+    </div>
+    <div class="container" id="firm">
+      <div class="row">
+        <div class="col">
+          <h2>Firm's Resources</h2>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3 class="text-start">
+            Working with a PI Firm will provide you with perks most
+            independently contracted PI’s can’t deliver. Our team of
+            Investigators specialize in a variety of investigative disciplines.
+            No matter where your case leads, how complex it gets, we have the
+            team, the resources, and the subject matter experts who will get the
+            job done with meticulous precision and accuracy.
+          </h3>
+          <div class="row m-5">
+            <div class="col">
+              <ul class="text-start">
+                <li>Multi-State Certified Investigators</li>
+                <li>Offices Statewide</li>
+                <li>Capital and Non-Capital Cases</li>
+                <li>Certified Bilingual Investigators (Spanish)</li>
+                <li>Mitigation Investigators</li>
+                <li>Fact Investigators</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <li>Certified Court Interpreter (Spanish)</li>
+                <li>Skip Tracing</li>
+                <li>Cellebrite (Digital Forensic Experts)</li>
+                <li>Ballistic and Weapon Experts</li>
+                <li>Vehicle and Accident Analyst</li>
+                <li>Drone Services</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="services">
+      <h2>Services</h2>
+      <hr />
+      <div class="accordion accordion-flush" id="accordServices">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headerCriminal">
+            <button
+              name="button"
+              type="button"
+              class="accordion-button text-light"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseCriminal"
+              aria-expanded="true"
+              aria-controls="collapseCriminal"
+            >
+              Criminal, Civil, Family and Juvenile Defense Investigations
+            </button>
+          </h2>
+          <div
+            aria-labelledby="headerCriminal"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordServices"
+            id="collapseCriminal"
+          >
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    class="img-fluid"
+                    src="/assets/services/Criminal-863aaf06db39b95518148574f38b6fcb188a4a1de86c5a85fb7712b4edfae0d9.jpg"
+                  />
+                </div>
+                <div class="col">
+                  <div class="text-light">
+                    Just as the Prosecution relies on Law Enforcement’s
+                    investigations to support their cases, the Defense relies on
+                    expert Investigative Services for case support. Through
+                    integrity, experience, and excellent communication we ensure
+                    every piece of information obtained is delivered to the
+                    attorney, assisting in developing and organizing the
+                    strongest defense possible for their clients.<br /><br />Our
+                    firm hyper focuses on and specializes in Criminal Defense
+                    Investigations. We work with many defense attorneys
+                    throughout the state, acquiring small contracts called NRE’s
+                    through the Office of Public Defense Services (OPDS), as
+                    well as privately retained case work.. Our Firm investigates
+                    several fields of law, to include civil, criminal, juvenile,
+                    family, fraud, and more.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headerServing">
+            <button
+              name="button"
+              type="button"
+              class="accordion-button collapsed text-light"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseServing"
+              aria-expanded="false"
+              aria-controls="collapseServing"
+            >
+              Serving Services
+            </button>
+          </h2>
+          <div
+            aria-labelledby="headerServing"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordServices"
+            id="collapseServing"
+          >
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    class="img-fluid"
+                    src="/assets/services/Serving-1f6c30f1b91bdfd9b45d13a90188ef7881f9a8eadeac840b1cc8abf1db80e4cf.jpg"
+                  />
+                </div>
+                <div class="col">
+                  <div class="text-light">
+                    A Process Server delivers (or serves) legal documents to a
+                    defendant or an individual involved in legal matters. A
+                    Process Server must serve said documents in accordance with
+                    court directives in order for the serve to be considered
+                    legal and valid. With professionalism and excellent
+                    communication, we will ensure the documents relevant to your
+                    case will be accurately and punctually delivered to the
+                    correct recipient(s).
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headerSurveillance">
+            <button
+              name="button"
+              type="button"
+              class="accordion-button collapsed text-light"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSurveillance"
+              aria-expanded="false"
+              aria-controls="collapseSurveillance"
+            >
+              Surveillance
+            </button>
+          </h2>
+          <div
+            aria-labelledby="headerSurveillance"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordServices"
+            id="collapseSurveillance"
+          >
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    class="img-fluid"
+                    src="/assets/services/Surveillance-e255975999174fee4cb610b4299471c795cbf71607bf806aca07244d0611563f.jpg"
+                  />
+                </div>
+                <div class="col">
+                  <div class="text-light">
+                    Corporate or Privately contracted, our team is committed to
+                    providing outstanding surveillance services without
+                    compromising accuracy, reliability, or the law. With secure
+                    surveillance evidence obtained during our investigations, we
+                    strive to provide accurate and relevant documentation to
+                    support the legal proceedings of a case.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headerInfidelity">
+            <button
+              name="button"
+              type="button"
+              class="accordion-button collapsed text-light"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseInfidelity"
+              aria-expanded="false"
+              aria-controls="collapseInfidelity"
+            >
+              Infidelity
+            </button>
+          </h2>
+          <div
+            aria-labelledby="headerInfidelity"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordServices"
+            id="collapseInfidelity"
+          >
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    class="img-fluid"
+                    src="/assets/services/Infidelity-87d661f845a72f8a8d70f59b4432fc0b8045fdfa77e2f6c221e6eaf902bc2abd.jpg"
+                  />
+                </div>
+                <div class="col">
+                  <div class="text-light">
+                    Investigating a partner is never a simple decision. Because
+                    we understand this, we take discretion and confidentiality
+                    to the highest level. Our Private Investigators are trained
+                    to be highly professional and discrete while collecting the
+                    sensitive, yet necessary information required to obtain
+                    during an Infidelity investigation. With the help of
+                    state-of-the-art video equipment and being thoroughly
+                    trained in covert tactics, our Field Investigators have the
+                    edge in obtaining the video and still photos desired to
+                    solve your case.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headerLost">
+            <button
+              name="button"
+              type="button"
+              class="accordion-button collapsed text-light"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseLost"
+              aria-expanded="false"
+              aria-controls="collapseLost"
+            >
+              Lost Persons
+            </button>
+          </h2>
+          <div
+            aria-labelledby="headerLost"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordServices"
+            id="collapseLost"
+          >
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    class="img-fluid"
+                    src="/assets/services/Lost-9a26bdd2b8bea75822096ea6a8540ee402e495043b1c141a45dd080e72f50a2e.jpg"
+                  />
+                </div>
+                <div class="col">
+                  <div class="text-light">
+                    When a loved one goes missing, be it a runaway, a lost
+                    family member, or an abduction, every hour that passes
+                    without the return of your loved one can feel paralyzing.
+                    Through the use of powerful industry tools – including
+                    covert surveillance, social media searches, proprietary
+                    databases, and a broad network of professional associations
+                    – our Investigators work around the clock, doing all they
+                    can to provide results for the most hopeful outcome.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5" id="locations">
+      <div class="row">
+        <div class="col">
+          <h2>Locations</h2>
+          <hr />
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card text-dark bg-light">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <iframe
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  class="ratio ratio-1x1 card-img-top"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2810.0115096268805!2d-123.17943748377141!3d45.227334857237075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549549822eed9d3b%3A0x1b504f6915de20d8!2sPowlison%20Communications%20Inc!5e0!3m2!1sen!2sus!4v1607130885847!5m2!1sen!2sus"
+                  tabindex="0"
+                  title="McMinnville"
+                ></iframe>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">McMinnville</h4>
+                  <h5 class="card-text">503-454-6270</h5>
+                  <address class="card-text">
+                    2046 N Highway 99W<br />Suite B.<br />McMinniville, OR,
+                    97128
+                  </address>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-dark bg-light">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <iframe
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  class="ratio ratio-1x1 card-img-top"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2856.777110728345!2d-121.17779598378664!3d44.273404920120726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54bf2ad98fdc18d9%3A0xdbaa4274571a8506!2s708%20SW%20Deschutes%20Ave%20%23210%2C%20Redmond%2C%20OR%2097756!5e0!3m2!1sen!2sus!4v1617324101569!5m2!1sen!2sus"
+                  tabindex="0"
+                  title="Redmond"
+                ></iframe>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Redmond</h4>
+                  <h5 class="card-text">541-316-8248</h5>
+                  <address class="card-text">
+                    708 SW Deschutes Ave.,<br />Suite 2<br />Redmond OR 97756
+                  </address>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-dark bg-light">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <iframe
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  class="ratio ratio-1x1 card-img-top"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.8195630402347!2d-122.6822650844409!3d45.51371077910163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950a1054472eef%3A0x2d3277031a564912!2s1400%20SW%205th%20Ave%20Suite%20255%2C%20Portland%2C%20OR%2097201!5e0!3m2!1sen!2sus!4v1633307440686!5m2!1sen!2sus"
+                  tabindex="0"
+                  title="Portland"
+                ></iframe>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Portland</h4>
+                  <h5 class="card-text">971-225-7897</h5>
+                  <address class="card-text">
+                    1400 SW 5th Ave Suite 255 Portland, OR 97201
+                  </address>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="p-10" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col logo">
+            <img
+              class="mx-auto d-block"
+              src="/assets/logo/iconLogo-4cb1c74690531c0eafacf1bc3614abcf6c90ced643e9db15791f949fe99bc9e5.png"
+            />
+            <p>Copyright &copy; 2021 Powlison Communications</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="vlist">
+              <span class="heading">Association</span>
+              <ul>
+                <li class="list-unstyled">
+                  <a
+                    target="_blank"
+                    href="https://www.oregon.gov/dpsst/Pages/default.aspx"
+                    >DPSST</a
+                  >
+                </li>
+                <li class="list-unstyled">
+                  <a target="_blank" href="https://www.ocdla.org/">OCDLA</a>
+                </li>
+                <li class="list-unstyled">
+                  <a target="_blank" href="https://www.nals.org/">NALS</a>
+                </li>
+                <li class="list-unstyled">
+                  <a target="_blank" href="https://www.cellebrite.com/"
+                    >Cellebrite</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="vlist">
+              <span class="heading">Marketing</span>
+              <ul>
+                <li>
+                  <a class="m-1" href="/flyer">PowComms Flyer</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="vlist">
+              <span class="heading">Employees</span>
+              <ul>
+                <li>
+                  <a class="m-1" href="https://secure.casefox.com/login"
+                    >Casefox</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="vlist">
+              <span class="heading">Contact Us</span>
+              <ul>
+                <li>
+                  <a
+                    class="m-1 fa-lg"
+                    target="_blank"
+                    href="https://www.facebook.com/PowCommsInc"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a
+                    class="m-1 fa-lg"
+                    target="_blank"
+                    href="https://www.instagram.com/powlisoncommunications/?hl=en"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    href="mailto:inbox@powcomms.com?Subject=Requesting more information"
+                    >inbox@powcomms.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
